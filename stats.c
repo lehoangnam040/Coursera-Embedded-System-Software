@@ -39,7 +39,9 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
+  printf("Data array:\n");
   print_array(test, SIZE);
+  printf("Statistic of data array:\n");
   print_statistics(test, SIZE);
 }
 
